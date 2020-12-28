@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Fynd_Movie_Test</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="api">8e8a3581341512a8c96ee55103474533</string>
+    <string name="token">eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI4ZThhMzU4MTM0MTUxMmE4Yzk2ZWU1NTEwMzQ3NDUzMyIsInN1YiI6IjVmZTE5MjM0NmEyMjI3MDA0MTg4YmIwNiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.ca49oZ3f4W0qAzCW_Id4bbZoQ8ZMupX-qsP8-JBs3FQ</string>
+</resources>
