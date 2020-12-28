@@ -32,10 +32,12 @@ class HomeViewModel(application: Application) : AndroidViewModel(application) {
             if(ApiHelper.hasInternetConnected(getApplication()) || currentPageNo == 1) {
                 mutableMovie.postValue(homeRepository.getMovies(currentPageNo))
             }else{
+                mutableMovie.postValue(null)
                 currentPageNo -= 1
             }
         }catch (e : Exception){
             e.printStackTrace()
+            mutableMovie.postValue(null)
             currentPageNo -= 1
 //            emit(Resources.error(data = null,message = e.message ?: "Error occurred"))
         }
